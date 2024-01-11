@@ -1,6 +1,6 @@
-<p>Nama : Ridho Pikriyansyah</p>
+<p>Nama : Viyan Qomarudin Noor</p>
 <p>Kelas : TI.21.A.3</p>
-<p>Nim : 312110169</p>
+<p>Nim : 312110420</p>
 
-### Demo ###
-https://youtu.be/f_dsJA5dwsM?si=ufNQjw6a8nMTbWXE
+### Link Demo ###
+https://youtu.be/6V4vwYuiCfE
