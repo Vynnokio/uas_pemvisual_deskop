@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, StdCtrls,
-  uLogin, uDataBarang, uTransaksi, uReport, uDataKategoriBarang, uTambahTransaksi;
+  uMasuk, uDBarang, uTransaksi, uReport, uDataKategoriBarang, uTTransaksi;
 
 type
 

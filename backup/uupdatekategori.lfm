@@ -59,7 +59,7 @@ object TfrmUpdateKategori: TTfrmUpdateKategori
   object SQLConnector1: TSQLConnector
     Connected = True
     LoginPrompt = False
-    DatabaseName = 'latihan2'
+    DatabaseName = 'uas'
     KeepConnection = False
     Transaction = SQLTransaction1
     ConnectorType = 'ODBC'

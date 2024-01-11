@@ -1,4 +1,4 @@
-unit uTambahKategori;
+unit uTKategori;
 
 {$mode ObjFPC}{$H+}
 

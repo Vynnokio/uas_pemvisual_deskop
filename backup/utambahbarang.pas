@@ -1,4 +1,4 @@
-unit uTambahbarang;
+unit uTBarang;
 
 {$mode objfpc}{$H+}
 

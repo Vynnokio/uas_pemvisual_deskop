@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, DB, SQLDB, odbcconn, Forms, Controls, Graphics, Dialogs,
-  StdCtrls, ExtCtrls, DBGrids, Menus, ActnList, Buttons, MaskEdit, ComCtrls, DBCtrls, uTambahTransaksi;
+  StdCtrls, ExtCtrls, DBGrids, Menus, ActnList, Buttons, MaskEdit, ComCtrls, DBCtrls, uTTransaksi;
 
 type
   { TTfrmTransaksi }

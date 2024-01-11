@@ -1,4 +1,4 @@
-unit uUpdateKategori;
+unit uUKategori;
 
 {$mode ObjFPC}{$H+}
 

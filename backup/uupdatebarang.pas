@@ -1,4 +1,4 @@
-unit uUpdateBarang;
+unit uUBarang;
 
 {$mode objfpc}{$H+}
 

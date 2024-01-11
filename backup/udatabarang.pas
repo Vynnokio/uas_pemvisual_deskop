@@ -1,4 +1,4 @@
-unit uDataBarang;
+unit uDBarang;
 
 {$mode objfpc}{$H+}
 

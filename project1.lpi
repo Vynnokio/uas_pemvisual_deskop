@@ -49,43 +49,11 @@
         <UnitName Value="uMain"/>
       </Unit>
       <Unit>
-        <Filename Value="ulogin.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="TfrmLogin"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uLogin"/>
-      </Unit>
-      <Unit>
-        <Filename Value="utambahbarang.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="TfrmTambahBarang"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uTambahbarang"/>
-      </Unit>
-      <Unit>
-        <Filename Value="uupdatebarang.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="TfrmUpdateBarang"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uUpdateBarang"/>
-      </Unit>
-      <Unit>
         <Filename Value="uTransaksi.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="TfrmTransaksi"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-      </Unit>
-      <Unit>
-        <Filename Value="utambahtransaksi.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="TfrmTambahTransaksi"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uTambahTransaksi"/>
       </Unit>
       <Unit>
         <Filename Value="utambahdetailtransaksi.pas"/>
@@ -103,14 +71,6 @@
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
-        <Filename Value="udatabarang.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="TfrmDataBarang"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uDataBarang"/>
-      </Unit>
-      <Unit>
         <Filename Value="udatakategoribarang.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="TfrmDataKategoriBarang"/>
@@ -119,20 +79,46 @@
         <UnitName Value="uDataKategoriBarang"/>
       </Unit>
       <Unit>
-        <Filename Value="utambahkategori.pas"/>
+        <Filename Value="uMasuk.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="TfrmTambahKategori"/>
-        <HasResources Value="True"/>
+        <ComponentName Value="TfrmLogin"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uTambahKategori"/>
       </Unit>
       <Unit>
-        <Filename Value="uupdatekategori.pas"/>
+        <Filename Value="uDBarang.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TfrmDataBarang"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uTBarang.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TfrmTambahBarang"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uTKategori.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TfrmTambahKategori"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uTTransaksi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TfrmTambahTransaksi"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uUBarang.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TfrmUpdateBarang"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uUKategori.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="TfrmUpdateKategori"/>
-        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uUpdateKategori"/>
       </Unit>
     </Units>
   </ProjectOptions>

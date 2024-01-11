@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, StdCtrls,
-  uLogin, uDataBarang, uTransaksi, uReport, uDataKategoriBarang, uTambahTransaksi;
+  uMasuk, uDBarang, uTransaksi, uReport, uDataKategoriBarang, uTambahTransaksi;
 
 type
 
@@ -180,6 +180,12 @@ var
   frmReport: TTfrmReport;
 begin
   try
+    frmReport := TTfrmReport.Create(Self);
+    Self.Hide;
+    if frmReport.ShowModal = mrOk then
+    begin
+    end;
+  finally
     frmReport.Free;
     Self.Show;
   end;

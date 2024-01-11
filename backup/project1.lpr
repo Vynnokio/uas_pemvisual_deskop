@@ -10,9 +10,9 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, uMain, uLogin, uTambahbarang, uUpdateBarang, uDataBarang, uTransaksi,
-  uTambahTransaksi, uTambahDetailTransaksi, uReport, uDataKategoriBarang,
-uTambahKategori, uUpdateKategori
+  Forms, uMain, uMasuk, uTBarang, uUBarang, uDBarang, uTransaksi,
+  uTTransaksi, uTambahDetailTransaksi, uReport, uDataKategoriBarang,
+uTKategori, uUKategori
   { you can add units after this };
 
 {$R *.res}
@@ -22,17 +22,16 @@ begin
   Application.Scaled:=True;
   Application.Initialize;
   Application.CreateForm(TTfrmMain, TfrmMain);
-  Application.CreateForm(TTfrmLogin, TfrmLogin);
-  Application.CreateForm(TTfrmTambahBarang, TfrmTambahBarang);
-  Application.CreateForm(TTfrmUpdateBarang, TfrmUpdateBarang);
   Application.CreateForm(TTfrmTransaksi, TfrmTransaksi);
-  Application.CreateForm(TTfrmTambahTransaksi, TfrmTambahTransaksi);
   Application.CreateForm(TTfrmTambahDetailTransaksi, TfrmTambahDetailTransaksi);
   Application.CreateForm(TTfrmReport, TfrmReport);
-  Application.CreateForm(TTfrmDataBarang, TfrmDataBarang);
   Application.CreateForm(TTfrmDataKategoriBarang, TfrmDataKategoriBarang);
+  Application.CreateForm(TTfrmLogin, TfrmLogin);
+  Application.CreateForm(TTfrmDataBarang, TfrmDataBarang);
+  Application.CreateForm(TTfrmTambahBarang, TfrmTambahBarang);
   Application.CreateForm(TTfrmTambahKategori, TfrmTambahKategori);
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TTfrmTambahTransaksi, TfrmTambahTransaksi);
+  Application.CreateForm(TTfrmUpdateBarang, TfrmUpdateBarang);
   Application.Run;
 end.
 

@@ -104,7 +104,7 @@ object TfrmDataBarang: TTfrmDataBarang
     Top = 247
   end
   object SQLTransaction1: TSQLTransaction
-    Active = True
+    Active = False
     Database = SQLConnector1
     Left = 293
     Top = 247
@@ -112,7 +112,7 @@ object TfrmDataBarang: TTfrmDataBarang
   object SQLConnector1: TSQLConnector
     Connected = True
     LoginPrompt = False
-    DatabaseName = 'latihan2'
+    DatabaseName = 'uas'
     KeepConnection = False
     Transaction = SQLTransaction1
     ConnectorType = 'ODBC'

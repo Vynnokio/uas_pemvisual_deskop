@@ -1,22 +1,24 @@
 object TfrmTambahTransaksi: TTfrmTambahTransaksi
-  Left = 622
-  Height = 522
+  Left = 676
+  Height = 354
   Top = 209
-  Width = 728
+  Width = 439
   Caption = 'Tambah Transaksi'
-  ClientHeight = 522
-  ClientWidth = 728
-  DesignTimePPI = 144
+  ClientHeight = 354
+  ClientWidth = 439
+  Color = clSkyBlue
+  DesignTimePPI = 120
   OnClose = FormClose
-  LCLVersion = '2.2.6.0'
+  LCLVersion = '3.0.0.3'
   object Label1: TLabel
-    Left = 232
-    Height = 45
-    Top = 96
-    Width = 265
+    Left = 136
+    Height = 37
+    Top = 80
+    Width = 227
     Caption = 'Tambah Transaksi'
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -32
+    Font.Color = clWhite
+    Font.Height = -27
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsBold]
@@ -24,28 +26,28 @@ object TfrmTambahTransaksi: TTfrmTambahTransaksi
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 80
-    Height = 25
-    Top = 208
-    Width = 129
-    Caption = 'Nama Customer'
+    Left = 56
+    Height = 20
+    Top = 173
+    Width = 63
+    Caption = 'Customer'
     ParentColor = False
   end
   object ECustomer: TEdit
-    Left = 232
-    Height = 33
-    Top = 200
-    Width = 273
+    Left = 136
+    Height = 28
+    Top = 167
+    Width = 228
     TabOrder = 0
     TextHint = 'Nama Customer'
   end
   object BTambahTransaksi: TButton
-    Left = 232
-    Height = 38
-    Top = 264
-    Width = 272
+    Left = 136
+    Height = 32
+    Top = 220
+    Width = 227
     Caption = 'Tambah'
-    OnClick = BTambahTransaksiClick
     TabOrder = 1
+    OnClick = BTambahTransaksiClick
   end
 end

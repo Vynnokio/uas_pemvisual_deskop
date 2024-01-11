@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, SQLDB, odbcconn, DB, Forms, Controls, Graphics, Dialogs,
-  DBGrids, StdCtrls, uTambahKategori, uUpdateKategori;
+  DBGrids, StdCtrls, uTKategori, uUpdateKategori;
 
 type
 
